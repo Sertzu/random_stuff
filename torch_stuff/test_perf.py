@@ -278,7 +278,7 @@ def main() -> int:
         ("convnext_large", convnext_large(weights=None)),
     ]
 
-    batch_sizes = [4, 8, 16, 32]
+    batch_sizes = [4, 8, 16, 32, 64, 128]
 
     all_results: Dict[str, Dict[str, Dict[int, Dict[str, Any]]]] = {}
 

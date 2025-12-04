@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-curl -LsSf https://astral.sh/uv/install.sh | sh
+nvidia-smi
 
 uv venv --system-site-packages .venv
 

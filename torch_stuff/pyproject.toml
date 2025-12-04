@@ -1,0 +1,17 @@
+[project]
+name = "convnext_tests"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "pillow",
+    "torch",
+    "torchvision"
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

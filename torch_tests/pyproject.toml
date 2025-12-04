@@ -5,7 +5,8 @@ dependencies = [
     "numpy",
     "pillow",
     "torch",
-    "torchvision"
+    "torchvision",
+    "matplotlib"
 ]
 
 [[tool.uv.index]]
